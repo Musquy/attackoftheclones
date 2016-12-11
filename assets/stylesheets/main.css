@@ -1,7 +1,9 @@
 .container {
+    width: 600px;
     margin: 0 auto;
 }
 
 #logo, #search-box {
     display:block;
+/*    margin: 0 auto;*/
 }
