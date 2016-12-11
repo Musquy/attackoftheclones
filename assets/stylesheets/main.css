@@ -1,5 +1,12 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 .container {
     margin: 0 auto;
+    width: 960px;
 }
 
 #logo, #search-box {
