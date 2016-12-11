@@ -14,3 +14,14 @@
     display:block;
 /*    margin: 0 auto;*/
 }
+#left-footer {
+    float: left;
+}
+
+#right-footer {
+    float: right;
+}
+
+#header {
+    float: right;
+}
