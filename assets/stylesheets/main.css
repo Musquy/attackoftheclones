@@ -5,10 +5,12 @@
 }
 
 .container {
+    width: 600px;
     margin: 0 auto;
     width: 960px;
 }
 
 #logo, #search-box {
     display:block;
+/*    margin: 0 auto;*/
 }
