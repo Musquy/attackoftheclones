@@ -7,15 +7,25 @@
 .container {
     margin: 0 auto;
     width: 960px;
+    text-align: center;
 }
 
 #logo, #search-box {
     display:block;
-/*    margin: 0 auto;*/
+    margin: 0 auto;
+}
+
+#search-box {
+    width: 528px;
+    height: 44px;
+    padding-top: 5px;
+    padding-left: 16px;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 
 #logo {
-    margin-top: 10px;
+    padding-top: 150px;
 }
 
 #left-footer {
@@ -31,12 +41,17 @@
 }
 
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+}
+
+.btn-search {
+    margin-bottom: 30px;
+    height: 30px;
 }
 
 
