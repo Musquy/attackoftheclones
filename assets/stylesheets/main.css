@@ -6,7 +6,7 @@
 
 body {
     font-family: arial,sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 a{
@@ -72,6 +72,27 @@ footer {
 .btn-search {
     margin-bottom: 30px;
     height: 30px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    height: 36px;
+    width: 127px;
+    color: #757575;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 5px;
 }
 
-
+.btn-search:hover{
+    color: #000;
+    border: 1px solid #ccc;
+}
+.btn-signin{
+    background-color: #4683ea;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 13px;
+}
